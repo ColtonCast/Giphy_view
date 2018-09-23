@@ -14,7 +14,7 @@ if(searchTerm == "" || searchTerm == null) {
 
 // runs rest if search isn't blank
 
-var giphyUrl = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=5knH8W13T2vTmr57shAPT4RJnmHuQHFv&limit=10"
+var giphyUrl = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=5knH8W13T2vTmr57shAPT4RJnmHuQHFv&limit=10"
 console.log(searchTerm + " <--- this is the searchTerm");
 
 // pushes searcterm to an array of previously pressed buttons
